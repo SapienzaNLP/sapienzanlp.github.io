@@ -1,0 +1,239 @@
+html
+{
+    font-size: 20px;
+}
+
+a,
+a:hover,
+a:focus
+{
+    color: #5F6EC1;
+}
+
+h1, h2
+{
+    text-align: center;
+}
+
+h1
+{
+    margin-bottom: 2rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.row
+{
+    gap: 1.5rem 0;
+}
+
+header 
+{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+header .background
+{
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+}
+
+header .background video
+{
+    width: auto;
+    height: 100%;
+}
+
+@media (min-width: 1600px)
+{
+    header .background video
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+header .logo
+{
+    max-width: 315px;
+    margin: 0 auto;
+}
+
+header .container
+{   
+    position: relative;
+    z-index: 1;
+}
+
+header .logo
+{
+    margin-bottom: 2rem;
+}
+
+header h2
+{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+main section
+{
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+main section h2
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #83092B;
+    margin-bottom: 2.5rem;
+}
+
+.h-badge
+{
+    background: transparent linear-gradient(180deg, #5F6EC1 0%, #83092B 100%) 0% 0% no-repeat padding-box;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    width: fit-content;
+    margin-right: auto;
+    color: #fff;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card
+{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 1.5rem;
+    border: 0;
+    padding: 1.5rem;
+}
+
+.divider
+{
+    width: 100%;
+    height: 1px;
+    background-color: #5F6EC133;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-modules
+{
+    gap: 1.5rem 0;
+}
+
+.card-module
+{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-module .preview
+{
+   width: calc(100% + 3.1rem);
+   margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+}
+
+.card-module .title
+{
+    color: #83092B;
+}
+
+.card-module .topics
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.card-module .topics li
+{
+    padding: .5rem 0;
+}
+
+.card-module .topics > li:not(:last-child)
+{
+    border-bottom: 1px solid #5F6EC133;
+}
+
+.hands-on
+{
+    margin-top: auto;
+    border-radius: .75rem;
+    background-color: #5F6EC133;
+    color: #5F6EC1;
+    padding: .5rem 1rem;
+}
+
+.hands-on .homework
+{
+    font-style: oblique;
+}
+
+.row-teaching .card
+{
+    height: 100%;
+}
+
+.row-teaching .card-navigli
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.row-teaching .card-navigli .picture
+{
+    margin-top: auto;
+    margin-left: -1.6rem;
+    margin-right: -1.6rem;
+    margin-bottom: -1.6rem;
+}
+
+.row-teaching .row-assistant
+{
+    gap: 1.5rem 0;
+}
+
+.row-teaching .row-assistant .picture
+{
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0 auto .5rem;
+}
+
+.row-teaching .row-assistant .name
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer
+{
+    width: 100%;
+    min-height: 6rem;
+    background-image: url(/uploads/imgs/preview_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
