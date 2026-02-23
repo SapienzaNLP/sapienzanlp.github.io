@@ -35,6 +35,11 @@ img
     gap: 1.5rem 0;
 }
 
+.container
+{
+    max-width: 1140px;
+}
+
 header 
 {
     padding-top: 6rem;
@@ -108,12 +113,11 @@ main section h2
     background: transparent linear-gradient(180deg, #5F6EC1 0%, #83092B 100%) 0% 0% no-repeat padding-box;
     border-radius: 1.5rem;
     font-weight: bold;
-    padding: .5rem 2rem;
+    padding: .25rem 2rem;
     width: fit-content;
     margin-right: auto;
     color: #fff;
-    margin-top: .5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .card
@@ -212,7 +216,7 @@ main section h2
 
 .row-teaching .row-assistant
 {
-    gap: 1.5rem 0;
+    gap: 1rem 0;
 }
 
 .row-teaching .row-assistant .picture
@@ -226,6 +230,7 @@ main section h2
 {
     text-align: center;
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
 footer
